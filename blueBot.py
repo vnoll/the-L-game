@@ -4,7 +4,7 @@ import random
 def tableWithoutBlue(table, color):
 
     kblue = [key for key, value_kvoid in table.items() if value_kvoid == color]
-    print kblue
+    ## print kblue
     for item in kblue:
         table[item] = "void"
     return table,kblue
@@ -156,7 +156,7 @@ def play(origkeys, possibleLV, possibleLH, table_orig, color):
     LinStringFormat = []
 
     if possibleLVH is not None:
-        print possibleLVH[chooseL]
+        ## print possibleLVH[chooseL]
         for item in possibleLVH[chooseL]:            
             table_orig[string_table[item]] = color
     
