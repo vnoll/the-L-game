@@ -20,5 +20,5 @@ Authors: father (*Valdir*) and his son *Isaque Noll*
     [a1 b1 c1 d1]
 
 ## The console image is similar to
-![image](TheLGame.jpg)
+![image](TheLGame.JPG)
 
